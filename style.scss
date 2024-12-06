@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+header{
+    background-color: green;
+    background-image: url("./mariah\ betinho.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 130vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    h1{
+        width: 70%;
+        font-family: "Itim", cursive;
+        font-size:  6rem;
+        color: #9D0000;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media (min-width: 201px) and (max-width: 500px){
+    header{
+        align-items: start;
+        h1{
+        font-size: 2rem;
+        color: rgb(255, 0, 0);
+        background-color: rgba(11, 138, 49, 0.2);
+        border-radius: 20px;
+    }
+}
+}
